@@ -132,7 +132,7 @@ def parse_analyse_patient_res(patient_num, result):
 
 if __name__ == '__main__':
     # path to the variants excel file
-    path = r"C:\Users\sheer\Documents\לימודים\אוניבסיטת תא\טביעת אצבע\all_patients_variantsALL2.xlsx"
+    path = r"C:\Users\sheer\Documents\לימודים\אוניבסיטת תא\טביעת אצבע\all_patients_variantsALL2.xlsx"  #change to your variants file path!
     variants_dict, patients_dict = extract_all_variants(path)
     #write_new_file(variants_dict)
 
@@ -144,13 +144,5 @@ if __name__ == '__main__':
      and all the frequencies for these variants according to mitomap"""
     #analyse_patient_mitomap("70X", patients_dict)
     #analyse_patient_mitomap("47X", patients_dict)
-    #analyse_patient_mitomap("91X", patients_dict)
-    #analyse_patient_mitomap("94Y", patients_dict)
-    #analyse_patient_mitomap("191", patients_dict)
-    #analyse_patient_mitomap("62X", patients_dict)
-    #analyse_patient_mitomap("25X", patients_dict)
-    #analyse_patient_mitomap("129Y", patients_dict)
-    #analyse_patient_mitomap("42Y", patients_dict)
-    #analyse_patient_mitomap("79X", patients_dict)
-    #analyse_patient_mitomap("140", patients_dict)
-    #analyse_patient_mitomap("125Y", patients_dict)
+
+
