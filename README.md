@@ -12,7 +12,7 @@ run "fingerprint_variants" to extract all variants from a given excel file.
 	*  'M-263-A-G', 'M-750-A-G', 'M-1438-A-G', 'M-4769-A-G', 'M-8860-A-G', 'M-15326-A-G'.
 * Given a patient number, get an excel file with all the variants showed count smaller then 500 (out of 61134 in the database), and all the frequencies for these variants according to mitomap.
 
-Based on the "mitomap Look up Co-variants" tool (https://www.mitomap.org/cgi-bin/covariants) - Compute frequencies of a variant with or without co-occurence with another variant.
+Based on the "mitomap Look up Co-variants" tool - Compute frequencies of a variant with or without co-occurence with another variant. https://www.mitomap.org/cgi-bin/covariants
 
 
 **Installation**
