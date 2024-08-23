@@ -2,13 +2,13 @@
 **Overview**
 
 
-run "fingerprint_variants" to extract all variants from a given excel file.
+Run "fingerprint_variants" to extract all variants from a given Excel file.
 * Remember to change file path in main!
-* excel file need to be in the foramt: coulmns = patiants (ex 137Y), rows = vriants (ex 152TC).
+* Excel file need to be in the foramt: coulmns = patiants (ex 137Y), rows = vriants (ex 152TC).
 
 
-* Create a new excel conaining all variants in the format {var:[patients with this var]}.
-* Create very_common_variants dict containing all the patients missing one variant out of 6 most common variants.
+* Create a new Excel containing all variants in the format {var:[patients with this var]}.
+* Create a very_common_variants dict containing all the patients missing one variant out of 6 most common variants.
 	*  'M-263-A-G', 'M-750-A-G', 'M-1438-A-G', 'M-4769-A-G', 'M-8860-A-G', 'M-15326-A-G'.
 * Given a patient number, get an excel file with all the variants showed count smaller then 500 (out of 61134 in the database), and all the frequencies for these variants according to mitomap.
 
