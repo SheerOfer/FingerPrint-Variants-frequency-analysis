@@ -3,7 +3,7 @@
 
 
 run "fingerprint_variants" to extract all variants from a given excel file.
-* remember to change file path in main.
+* Remember to change file path in main!
 * excel file need to be in the foramt: coulmns = patiants (ex 137Y), rows = vriants (ex 152TC).
 
 
